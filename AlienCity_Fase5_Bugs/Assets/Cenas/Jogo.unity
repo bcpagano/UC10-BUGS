@@ -1702,7 +1702,7 @@ MeshCollider:
   m_GameObject: {fileID: 337336003}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
@@ -2647,7 +2647,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559043248}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 10.46, y: 3.91, z: 4.41}
@@ -5966,6 +5966,7 @@ GameObject:
   - component: {fileID: 1622708885}
   - component: {fileID: 1622708884}
   - component: {fileID: 1622708883}
+  - component: {fileID: 1622708882}
   m_Layer: 0
   m_Name: ParedeEsmaga2
   m_TagString: Untagged
@@ -5973,6 +5974,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1622708882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622708881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfe4e764263452488deec736cebcfa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Doors: {fileID: 1622708885}
 --- !u!54 &1622708883
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7309,11 +7323,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971492738}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.8, y: 10.28, z: 1.79}
-  m_Center: {x: -4.74, y: -0.18, z: 0.63}
+  m_Size: {x: 16.86024, y: 10.28, z: 0.2853938}
+  m_Center: {x: 0.16, y: -0.17999983, z: -0.82}
 --- !u!65 &1971492742
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7322,11 +7336,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971492738}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 13.12, y: 11.037765, z: 4.285252}
-  m_Center: {x: 1.4, y: -0.0000001107082, z: -2.6}
+  m_Size: {x: 16.97868, y: 11.037765, z: 4.2852526}
+  m_Center: {x: -0.52934074, y: 2.0899325e-14, z: -2.6}
 --- !u!1001 &2002873543
 PrefabInstance:
   m_ObjectHideFlags: 0
